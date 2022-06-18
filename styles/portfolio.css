@@ -1,8 +1,8 @@
 :root {
   --branding-color: #6c63ff;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Caveat", cursive;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #75c1c8;
 }
 body {
   font-family: var(--default-font-family);
@@ -34,7 +34,7 @@ h2 {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px 50px 20px;
 }
 
 .hero p {
@@ -87,4 +87,8 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
+}
+
+.my-projects {
+  font-size: 30px;
 }
