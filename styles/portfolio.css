@@ -72,7 +72,32 @@ h2 {
   padding: 120px 60px;
 }
 
+.my-projects {
+  font-size: 30px;
+}
+
+.about-section {
+  padding: 120px 20px 50px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 @media (max-width: 960px) {
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
   h1 {
     font-size: 50px;
     line-height: 2;
@@ -87,8 +112,4 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
-}
-
-.my-projects {
-  font-size: 30px;
 }
