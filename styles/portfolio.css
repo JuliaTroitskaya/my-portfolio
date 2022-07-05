@@ -93,7 +93,7 @@ h4 {
 }
 
 .content {
-  margin: 30px;
+  margin: 40px;
 }
 
 .content h3 {
@@ -155,6 +155,24 @@ footer .contact-box p {
 }
 .about {
   margin-bottom: 150px;
+}
+#my-work {
+  margin-top: 0px;
+}
+#main-work {
+  padding-top: 30px;
+}
+#header-work {
+  margin-bottom: 100px;
+}
+#work-inquiry {
+  margin-top: 100px;
+}
+#contact-me {
+  padding-top: 0px;
+}
+#get-in-touch {
+  margin-top: 100px;
 }
 
 @media (max-width: 960px) {
